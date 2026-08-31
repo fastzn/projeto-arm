@@ -1,4 +1,4 @@
-# Projeto Totem
+# Projeto Totem ( EM ATT)
 
 O Projeto Totem é um assistente robótico interativo desenvolvido para atuar como uma tecnologia assistiva, especialmente para pessoas com Transtorno do Espectro Autista (TEA). O objetivo é auxiliar na interpretação de estímulos táteis e sociais. O sistema combina um braço mecânico, um rosto animado em um tablet, reconhecimento de voz e inteligência artificial para criar uma experiência de interação rica e responsiva.
 
