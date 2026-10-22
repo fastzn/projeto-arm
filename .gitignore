@@ -27,3 +27,20 @@ build/
 # Lixo do Sistema Operacional
 .DS_Store
 Thumbs.db
+
+# Material tecnico fora da apresentacao publica
+/hardware/
+/software/
+/docs/
+*.[sS][tT][lL]
+*.[sS][tT][eE][pP]
+*.[sS][tT][pP]
+*.3mf
+*.f3d
+*.f3z
+*.FCStd
+*.obj
+*.gcode
+*.zip
+*.7z
+*.rar

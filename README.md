@@ -1,24 +1,19 @@
-# Projeto Totem ( EM ATT)
+# Projeto Totem — braço e mão robóticos
 
-O Projeto Totem é um assistente robótico interativo desenvolvido para atuar como uma tecnologia assistiva, especialmente para pessoas com Transtorno do Espectro Autista (TEA). O objetivo é auxiliar na interpretação de estímulos táteis e sociais. O sistema combina um braço mecânico, um rosto animado em um tablet, reconhecimento de voz e inteligência artificial para criar uma experiência de interação rica e responsiva.
+Projeto de Pedro Antônio Leal Fernandes, estudante de Engenharia de Robôs da UFPB.
 
-## Arquitetura do Sistema
+## Apresentação
 
-O projeto é dividido em três camadas principais:
-* **Frontend (Tablet):** Interface desenvolvida em HTML5 e JavaScript que exibe o rosto animado e reproduz falas, comunicando-se via WebSocket.
-* **Backend (Python):** Servidor Python 3.x que atua como motor de IA, processa reconhecimento de voz (STT), síntese de fala (TTS), visão computacional (rastreamento e detecção via MediaPipe/OpenCV) e controla os estados do robô.
-* **Hardware (Arduino):** Controla os movimentos físicos do braço robótico recebendo comandos do servidor Python via comunicação serial USB.
+Desenvolvimento de um protótipo de braço e mão de inspiração humanoide e de uma interface própria para controle e programação de movimentos. O trabalho reúne construção mecânica, eletrônica e software, com interesse em manipulação robótica e interação humano–robô.
 
-## Componentes de Hardware
+O protótipo está em desenvolvimento. As demonstrações e os resultados devem ser considerados experimentais.
 
-* Microcontrolador Arduino Uno.
-* Controlador PWM PCA9685 de 16 canais.
-* 6x Servos MG996R de alto torque.
-* Tablet Red Pad 2 (Android) para a interface visual.
-* Webcam USB 480p para visão computacional.
+## Sobre este repositório
 
-## Modos de Operação
+A versão atual funciona como apresentação pública do projeto. Arquivos de fabricação, código-fonte, parâmetros de controle e instruções de reprodução não fazem parte desta versão.
 
-* **Modo Normal:** O sistema aguarda o comando de ativação por voz.
-* **Modo Conversa:** Processa comandos de voz, responde através da IA Groq (modelo Llama 3.1) e executa gestos.
-* **Modo Manual:** Controle do braço através dos gestos da mão do usuário capturados pela webcam.
+## Contato e colaboração
+
+Professores, pesquisadores e instituições interessados em demonstrações ou possíveis colaborações podem entrar em contato com o autor pelo perfil [fastzn](https://github.com/fastzn).
+
+O contato para parcerias é uma iniciativa pessoal; eventual participação institucional depende das autorizações correspondentes.
